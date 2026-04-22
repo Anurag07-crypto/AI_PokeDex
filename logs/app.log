@@ -1,0 +1,286 @@
+2026-04-20 14:07:02 | INFO     | Work_dir.pokedex_agent | GROQ_API_KEY imported Successfully
+2026-04-21 12:20:51 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: Expected state_dict to be dict-like, got <class 'pathlib.WindowsPath'>.
+2026-04-21 12:24:26 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: Expected state_dict to be dict-like, got <class 'pathlib.WindowsPath'>.
+2026-04-21 12:26:43 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: Expected state_dict to be dict-like, got <class 'pathlib.WindowsPath'>.
+2026-04-21 12:27:58 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: Expected state_dict to be dict-like, got <class 'pathlib.WindowsPath'>.
+2026-04-21 12:31:20 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: Expected state_dict to be dict-like, got <class 'pathlib.WindowsPath'>.
+2026-04-21 12:34:14 | INFO     | Work_dir.Cnn_model | Model Loaded SuccessFully
+2026-04-21 12:34:31 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:37:17 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: 'Image' object has no attribute 'read'
+2026-04-21 12:41:37 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: 'Image' object has no attribute 'read'
+2026-04-21 12:42:34 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: 'Image' object has no attribute 'read'
+2026-04-21 12:42:52 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: 'Image' object has no attribute 'read'
+2026-04-21 12:44:13 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: 'Image' object has no attribute 'read'
+2026-04-21 12:46:27 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:47:51 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:49:35 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:49:52 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:50:39 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:53:01 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:53:25 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:56:21 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 12:59:57 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:02:16 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:03:03 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:04:39 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:04:51 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:05:05 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:05:08 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:05:24 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:07:03 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:07:07 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:15:27 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:15:54 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:15:57 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:15:58 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:20:40 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:20:53 | ERROR    | Work_dir.Cnn_model | PokeDex Model Not Generated: unknown file extension: 
+2026-04-21 13:21:42 | INFO     | Work_dir.Cnn_model | Model Loaded SuccessFully
+2026-04-21 13:22:01 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_nacli.png
+2026-04-21 13:25:05 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_decidueye.png
+2026-04-21 13:26:36 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-21 13:27:45 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_dhelmise.png
+2026-04-21 13:40:19 | INFO     | Work_dir.pokedex_agent | GROQ_API_KEY imported Successfully
+2026-04-21 13:40:37 | INFO     | Work_dir.pokedex_agent | GROQ_API_KEY imported Successfully
+2026-04-21 13:40:38 | INFO     | Work_dir.Cnn_model | Model Loaded SuccessFully
+2026-04-21 13:40:53 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-21 13:41:39 | INFO     | Work_dir.pokedex_agent | GROQ_API_KEY imported Successfully
+2026-04-21 13:41:46 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 13:41:46 | INFO     | back_server | Incoming Request persian
+2026-04-21 13:41:46 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-04-21 13:41:46 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-04-21 13:44:23 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 13:44:38 | CRITICAL | Work_dir.pokedex_agent | GROQ_API_KEY and TAVILY_API_KEY not imported Successfully
+2026-04-21 13:44:38 | INFO     | back_server | Incoming Request persian
+2026-04-21 13:44:38 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-04-21 13:44:38 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-04-21 13:48:16 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 13:48:29 | CRITICAL | Work_dir.pokedex_agent | GROQ_API_KEY and TAVILY_API_KEY not imported Successfully
+2026-04-21 13:48:29 | INFO     | back_server | Incoming Request persian
+2026-04-21 13:48:29 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={'tavily_api_key': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-04-21 13:48:29 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: 1 validation error for TavilySearchAPIWrapper
+  Value error, Did not find tavily_api_key, please add an environment variable `TAVILY_API_KEY` which contains it, or pass `tavily_api_key` as a named parameter. [type=value_error, input_value={'tavily_api_key': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-04-21 13:51:57 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 13:53:09 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 13:54:33 | CRITICAL | Work_dir.pokedex_agent | Missing TAVILY_API_KEY
+2026-04-21 13:59:12 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 13:59:23 | CRITICAL | Work_dir.pokedex_agent | Missing TAVILY_API_KEY
+2026-04-21 14:01:19 | CRITICAL | Work_dir.pokedex_agent | Missing TAVILY_API_KEY
+2026-04-21 14:01:22 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:03:25 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:03:33 | CRITICAL | Work_dir.pokedex_agent | Missing TAVILY_API_KEY
+2026-04-21 14:04:43 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:04:56 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:04:56 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:04:56 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:04:56 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:04:56 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:04:56 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:04:58 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:04:58 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:04:58 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:58 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:58 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:58 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:58 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:04:58 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:58 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:04:58 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:58 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:58 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:59 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:04:59 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:04:59 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:59 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:59 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:04:59 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Invalid input type <class 'langchain_core.messages.human.HumanMessage'>. Must be a PromptValue, str, or list of BaseMessages.
+2026-04-21 14:08:22 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:08:39 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:08:41 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:08:44 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Evolutions`: expected string, but got null]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Type": ["Normal"], "Attacks": ["Scratch", "Foul Play", "Feint Attack", "Night Slash", "Power Gem"], "Strongest_attack": "Scratch + Foul Play (DPS => 8.58)"}</function>'}}
+2026-04-21 14:08:44 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Evolutions`: expected string, but got null]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Type": ["Normal"], "Attacks": ["Scratch", "Foul Play", "Feint Attack", "Night Slash", "Power Gem"], "Strongest_attack": "Scratch + Foul Play (DPS => 8.58)"}</function>'}}
+2026-04-21 14:11:29 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:11:42 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:11:46 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:11:46 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Strongest_attack`: expected string, but got null, `/Type`: expected array, but got string, `/Attacks`: expected array, but got string]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Attacks": "Scratch, Foul Play", "Strongest_attack": null, "Type": "Normal"} </function>'}}
+2026-04-21 14:11:46 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Strongest_attack`: expected string, but got null, `/Type`: expected array, but got string, `/Attacks`: expected array, but got string]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Attacks": "Scratch, Foul Play", "Strongest_attack": null, "Type": "Normal"} </function>'}}
+2026-04-21 14:13:08 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:13:27 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:13:29 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:13:30 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-21 14:13:30 | ERROR    | back_server | Unexpected Error in /get_info: too many values to unpack (expected 3)
+Traceback (most recent call last):
+  File "c:\Users\Lenovo\Desktop\Pokedex\Backend\back_server.py", line 26, in get_info
+    _, confidence_score, response = Agent(output_label=request.query)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+2026-04-21 14:14:35 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:14:55 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:14:56 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:14:57 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Attacks": ["Scratch", "Night Slash", "Feint Attack", "Power Gem", "Foul Play"], "Evolutions": null, "Pokemon_name": "Persian", "Strongest_attack": "Scratch and Foul Play", "Type": ["Normal"]}'}}
+2026-04-21 14:14:57 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Attacks": ["Scratch", "Night Slash", "Feint Attack", "Power Gem", "Foul Play"], "Evolutions": null, "Pokemon_name": "Persian", "Strongest_attack": "Scratch and Foul Play", "Type": ["Normal"]}'}}
+2026-04-21 14:16:35 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:16:51 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:16:52 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:16:53 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Attacks": ["Scratch", "Foul Play", "Feint Attack", "Power Gem", "Night Slash"], "Strongest_attack": ["Scratch", "Foul Play"], "Type": ["Normal"]}'}}
+2026-04-21 14:16:53 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Attacks": ["Scratch", "Foul Play", "Feint Attack", "Power Gem", "Night Slash"], "Strongest_attack": ["Scratch", "Foul Play"], "Type": ["Normal"]}'}}
+2026-04-21 14:18:21 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:18:32 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:18:33 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:18:35 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Strongest_attack`: expected array, but got string, `/Type`: expected array, but got string, `/Attacks`: expected array, but got string]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Attacks": "Scratch, Foul Play, Night Slash, Feint Attack, Power Gem", "Strongest_attack": "Scratch and Foul Play", "Type": "Normal"} </function>'}}
+2026-04-21 14:18:35 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Strongest_attack`: expected array, but got string, `/Type`: expected array, but got string, `/Attacks`: expected array, but got string]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Persian", "Evolutions": null, "Attacks": "Scratch, Foul Play, Night Slash, Feint Attack, Power Gem", "Strongest_attack": "Scratch and Foul Play", "Type": "Normal"} </function>'}}
+2026-04-21 14:20:03 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:20:19 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:20:20 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:20:21 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-21 14:20:21 | ERROR    | back_server | Unexpected Error in /get_info: too many values to unpack (expected 3)
+Traceback (most recent call last):
+  File "c:\Users\Lenovo\Desktop\Pokedex\Backend\back_server.py", line 26, in get_info
+    label, confidence_score, response = Agent(output_label=request.query)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+2026-04-21 14:24:42 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:24:57 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:24:58 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:25:00 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-21 14:25:00 | INFO     | back_server | Backend Request Approved
+2026-04-21 14:25:37 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:25:37 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:25:38 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:25:39 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-21 14:25:39 | INFO     | back_server | Backend Request Approved
+2026-04-21 14:28:27 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:28:43 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:28:47 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:28:48 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-21 14:28:48 | INFO     | back_server | Backend Request Approved
+2026-04-21 14:28:59 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_persian.png
+2026-04-21 14:28:59 | INFO     | back_server | Incoming Request persian
+2026-04-21 14:29:00 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-21 14:29:00 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-21 14:29:00 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:14:21 | INFO     | Work_dir.Cnn_model | Model Loaded SuccessFully
+2026-04-22 12:15:24 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_dhelmise.png
+2026-04-22 12:15:24 | INFO     | back_server | Incoming Request dhelmise
+2026-04-22 12:15:26 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:15:28 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Strongest_attack`: expected array, but got string, `/Type`: expected array, but got string, `/Attacks`: expected array, but got string]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Dhelmise", "Evolutions": null, "Attacks": "Shadow Claw, Shadow Ball, Power Whip", "Strongest_attack": "Shadow Claw & Power Whip", "Type": "Ghost & Grass"} </function>'}}
+2026-04-22 12:15:28 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': 'tool call validation failed: parameters for tool Structure did not match schema: errors: [`/Strongest_attack`: expected array, but got string, `/Type`: expected array, but got string, `/Attacks`: expected array, but got string]', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Dhelmise", "Evolutions": null, "Attacks": "Shadow Claw, Shadow Ball, Power Whip", "Strongest_attack": "Shadow Claw & Power Whip", "Type": "Ghost & Grass"} </function>'}}
+2026-04-22 12:17:22 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_dhelmise.png
+2026-04-22 12:17:22 | INFO     | back_server | Incoming Request dhelmise
+2026-04-22 12:17:23 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:17:23 | ERROR    | Work_dir.pokedex_agent | Output label Not Found: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Dhelmise", "Attacks": ["Shadow Claw", "Shadow Ball", "Power Whip"], "Evolutions": null, "Strongest_attack": ["Shadow Claw", "Power Whip"], "Type": ["Ghost", "Grass"]}'}}
+2026-04-22 12:17:23 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Pokemon_name": "Dhelmise", "Attacks": ["Shadow Claw", "Shadow Ball", "Power Whip"], "Evolutions": null, "Strongest_attack": ["Shadow Claw", "Power Whip"], "Type": ["Ghost", "Grass"]}'}}
+2026-04-22 12:22:01 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_dhelmise.png
+2026-04-22 12:22:01 | INFO     | back_server | Incoming Request dhelmise
+2026-04-22 12:22:02 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:22:02 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:22:02 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:23:05 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_dhelmise.png
+2026-04-22 12:23:15 | INFO     | back_server | Incoming Request dhelmise
+2026-04-22 12:23:16 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:23:17 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:23:17 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:24:02 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:24:02 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:24:04 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:24:04 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:24:04 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:26:44 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:26:55 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:26:56 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:26:57 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:26:57 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:33:03 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:33:03 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:33:05 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:33:06 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:33:06 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:33:45 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:33:54 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:33:55 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:33:55 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:33:55 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:34:59 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:35:10 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:35:10 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:35:11 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:35:11 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:36:02 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:36:02 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:36:03 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:36:04 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:36:04 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:39:10 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:39:20 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:39:21 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:39:22 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:39:22 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:39:24 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:39:24 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:39:25 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:39:25 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:39:25 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:42:01 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:42:09 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:42:10 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:42:11 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:42:11 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:42:41 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:42:53 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:42:54 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:42:54 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:42:54 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:43:37 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:43:45 | INFO     | back_server | Incoming Request abra
+2026-04-22 12:43:46 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:43:47 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:43:47 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:44:20 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:44:31 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:44:44 | INFO     | back_server | Incoming Request abra
+2026-04-22 12:44:44 | INFO     | back_server | Incoming Request abra
+2026-04-22 12:44:45 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:44:45 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:44:46 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:44:46 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:44:46 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:44:46 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:44:51 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:44:51 | INFO     | back_server | Incoming Request abra
+2026-04-22 12:44:51 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:44:52 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:44:52 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:45:51 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:46:02 | INFO     | back_server | Incoming Request abra
+2026-04-22 12:46:02 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:46:03 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:46:03 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:50:09 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:50:43 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:51:20 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:55:07 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:55:16 | INFO     | back_server | Incoming Request abra
+2026-04-22 12:55:17 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:55:18 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:55:18 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:56:59 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_abra.png
+2026-04-22 12:57:10 | INFO     | back_server | Incoming Request abra
+2026-04-22 12:57:11 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:57:11 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:57:11 | INFO     | back_server | Backend Request Approved
+2026-04-22 12:58:46 | INFO     | Work_dir.Cnn_model | Output saved successfully to predictions\output_pikachu.png
+2026-04-22 12:58:46 | INFO     | back_server | Incoming Request pikachu
+2026-04-22 12:58:47 | INFO     | Work_dir.pokedex_agent | Search Results generated
+2026-04-22 12:58:48 | INFO     | Work_dir.pokedex_agent | Response Generated
+2026-04-22 12:58:48 | INFO     | back_server | Backend Request Approved

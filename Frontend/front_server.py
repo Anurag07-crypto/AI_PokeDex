@@ -1,11 +1,14 @@
 from pathlib import Path
 import sys
-from PIL import Image
+from rembg import remove
 import requests
 from typing import Optional
 from langchain_groq import ChatGroq
 import os  
 from dotenv import load_dotenv
+from PIL import Image
+import numpy as np 
+
 
 
 load_dotenv()
@@ -18,6 +21,13 @@ sys.path.insert(0, str(project_root))
 
 from Work_dir.Cnn_model import Predict
 import streamlit as st
+
+def Image_preprocess(img_path):
+    image = Image.open(img_path).convert("RGBA")
+    image = remove(image)
+
+    return image
+
 
 # ===== BACKEND CONFIGURATION =====
 BACKEND_URL = "http://127.0.0.1:8000"
@@ -37,7 +47,7 @@ def get_pokemon_info(pokemon_name: str) -> Optional[str]:
         response = requests.post(
             f"{BACKEND_URL}/get_info",
             json={"query": pokemon_name},
-            timeout=25
+            timeout=50
         )
         response.raise_for_status()
         return response.json().get("response")
@@ -52,12 +62,13 @@ st.markdown("Upload a Pokémon image to identify and learn more about it!")
 with st.form(key="pokemon_search_form"):
     uploaded_image = st.file_uploader(
         "Upload your Pokemon", 
-        type=["png", "jpeg", "jpg"],
+        type=["png", "jpeg", "jpg","webp"],
         help="Upload a clear image of a Pokemon"
     )
     submitted = st.form_submit_button("🔍 Identify Pokemon")
  
 if submitted: 
+    uploaded_image = Image_preprocess(uploaded_image)
     if uploaded_image is not None:
         # Show loading spinner
         with st.spinner("🔮 Analyzing Pokemon..."):

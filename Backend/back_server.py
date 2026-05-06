@@ -20,6 +20,7 @@ class Dex_str(BaseModel):
 
 @app.post("/get_info")
 def get_info(request:Dex_str):
+    """ Getting info from the frontend and passes request """
     
     logger.info(f"Incoming Request {request.query[:50]}")
     try:

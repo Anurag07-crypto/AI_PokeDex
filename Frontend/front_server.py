@@ -1,35 +1,18 @@
 from pathlib import Path
 import sys
-from rembg import remove
-import requests
-from typing import Optional
-from langchain_groq import ChatGroq
-import os  
-from dotenv import load_dotenv
-from PIL import Image
-import numpy as np 
-
-
-
-load_dotenv()
-os.getenv("GROQ_API_KEY")
-
-rewrite_llm = ChatGroq(model="llama-3.1-8b-instant")
-
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
+import requests
+from typing import Optional
+from Frontend.services import LLM_Service, BG_Remove
+from Work_dir.logger import get_logger
 from Work_dir.Cnn_model import Predict
 import streamlit as st
 
-def Image_preprocess(img_path):
-    image = Image.open(img_path).convert("RGBA")
-    image = remove(image)
+logger = get_logger(__name__)
 
-    return image
-
-
-# ===== BACKEND CONFIGURATION =====
+# ===== BACKEND CONFIGURATION =====  
 BACKEND_URL = "http://127.0.0.1:8000"
 
 # ===== HELPER FUNCTIONS =====
@@ -43,6 +26,7 @@ def get_pokemon_info(pokemon_name: str) -> Optional[str]:
     Returns:
         Pokemon information or None if request fails
     """
+    
     try:
         response = requests.post(
             f"{BACKEND_URL}/get_info",
@@ -68,7 +52,7 @@ with st.form(key="pokemon_search_form"):
     submitted = st.form_submit_button("🔍 Identify Pokemon")
  
 if submitted: 
-    uploaded_image = Image_preprocess(uploaded_image)
+    uploaded_image = BG_Remove(image_path=uploaded_image).remove()
     if uploaded_image is not None:
         # Show loading spinner
         with st.spinner("🔮 Analyzing Pokemon..."):
@@ -93,18 +77,8 @@ if submitted:
                      
                     with st.spinner(f"Fetching details about {label}..."):
                         pokemon_info = get_pokemon_info(label)
-                        
-                        rewrite_prompt = f""" 
-    You have just only Write this things in more representative form
-    in Markdown format
-    here is the context:
-    {pokemon_info}
-    constraints
-    -make sure give me only one str output 
-    -No extra messages only just do what i told above
-    """
-
-                        response = rewrite_llm.invoke(rewrite_prompt)
+                        LLM = LLM_Service(context=pokemon_info)
+                        response = LLM.invoke()
                         
                         if pokemon_info:
                             st.markdown(response.content)

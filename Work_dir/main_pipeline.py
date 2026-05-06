@@ -5,6 +5,17 @@ from .logger import get_logger
 logger = get_logger(__name__)
 
 def WorkFlow(img_path):
+    """Mainly the important workflow pipeline
+
+    Args:
+        img_path (_type_): Path of image
+
+    Raises:
+        RuntimeError: Image Path Not Loaded
+
+    Returns:
+        _type_: String and Integer
+    """
     try:
         label, confidence_score = Predict(img_path=img_path)
         response = Agent(label)

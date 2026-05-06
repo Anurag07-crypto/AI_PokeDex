@@ -8,29 +8,9 @@ import os
 from typing import Optional, List
 from dotenv import load_dotenv 
 
-'''
-led', 'failed_generation': '<function=Structure> {"Attacks": ["Scratch", "Night Slash", "Feint Attack", "Power Gem", "Foul Play"], "Evolutions": null, "Pokemon_name": "Persian", "Strongest_attack": "Scratch and Foul Play", "Type": ["Normal"]}'}}
-2026-04-21 14:14:57 | ERROR    | back_server | Runtime Error in /get_info: Output Label Not Found: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<function=Structure> {"Attacks": ["Scratch", "Night Slash", "Feint Attack", "Power Gem", "Foul Play"], "Evolutions": null, "Pokemon_name": "Persian", "Strongest_attack": "Scratch and Foul Play", "Type": ["Normal"]}'}}
-'''
-
-
-
 logger = get_logger(__name__)
 
 env_path = Path(__file__).resolve().parent.parent / ".env"
-load_dotenv(dotenv_path=env_path)
-
-groq_api_key = os.getenv("GROQ_API_KEY")
-tavily_api_key = os.getenv("TAVILY_API_KEY")
-if not groq_api_key:
-    logger.critical("Missing GROQ_API_KEY")
-    raise RuntimeError("Missing GROQ_API_KEY")
-
-if not tavily_api_key:
-    logger.critical("Missing TAVILY_API_KEY")
-    raise RuntimeError("Missing TAVILY_API_KEY")
-
-llm = ChatGroq(model="llama-3.3-70b-versatile", groq_api_key=groq_api_key)
 
 class Structure(BaseModel):
     Pokemon_name: str
@@ -38,14 +18,40 @@ class Structure(BaseModel):
     Attacks: List[str]
     Strongest_attack: List[str]
     Type: List[str]
-str_llm = llm.with_structured_output(Structure)
+    
 
-def Agent(output_label):
+def Agent(output_label, model:str="llama-3.3-70b-versatile"):
+    """
+    Agent for the user Support
+    
+    Args:
+        output_label (_type_): String
+
+    Raises:
+        RuntimeError: Output Label Not Found
+
+    Returns:
+        _type_: Markdown string
+    """
+    
+    load_dotenv(dotenv_path=env_path)
+
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+    TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
+
+    if not GROQ_API_KEY and TAVILY_API_KEY:
+        logger.critical("Missing API keys")
+        raise RuntimeError("Missing API keys")
+
+    llm = ChatGroq(model=model, groq_api_key=GROQ_API_KEY)
+    str_llm = llm.with_structured_output(Structure)
+    
     try:
-        tavily_search = TavilySearch(max_results=3, tavily_api_key=tavily_api_key)
+        tavily_search = TavilySearch(max_results=3, tavily_api_key=TAVILY_API_KEY)
         query = f"{output_label} Pokemon, evolve, type, attacks and strongest move"
         search_results = tavily_search.invoke({"query":query})
         logger.info("Search Results generated")
+        
         PROMPT = f"""
     You are a Pokemon expert.
 
@@ -65,6 +71,7 @@ def Agent(output_label):
         response = str_llm.invoke([HumanMessage(content=PROMPT)])
         logger.info("Response Generated")
         return response
+    
     except Exception as e:
         logger.error(f"Output label Not Found: {e}")
         raise RuntimeError(f"Output Label Not Found: {e}") from e

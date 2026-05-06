@@ -1021,6 +1021,8 @@ Val_transforms = transforms.Compose(transforms=[
 
 # Model_Structure
 class Pokedex_model(nn.Module):
+    """PokeDex Model class: The structure of model"""
+    
     def __init__(self, num_classes):
         super().__init__()
 
@@ -1060,67 +1062,81 @@ class Pokedex_model(nn.Module):
         x = self.classifier(x)
 
         return x
-trained_model_path = Path(r"C:\Users\Lenovo\Desktop\Pokedex\model\pokedex_model.pth")
+    
+    
+trained_model_path = Path(r"C:\Users\Lenovo\Desktop\RAG_&_Automation_projects\Pokedex\model\pokedex_model.pth")
 state_dict = torch.load(trained_model_path, map_location=torch.device("cpu"))
 Model = Pokedex_model(num_classes=1000)
 Model.load_state_dict(state_dict)
 logger.info("Model Loaded SuccessFully")
 Model.eval()
         
-        
+
 def Predict(img_path):
-        if isinstance(img_path, (str, Path)):
-            image = Image.open(img_path).convert("RGB")
+    """To Predict the Pokemon Name from the Provided Image
+
+    Args:
+        img_path (_type_): Path of Image
+
+    Raises:
+        ValueError: Unsupported Image Type
+
+    Returns:
+        _type_: String and Integer
+    """
+    
+    if isinstance(img_path, (str, Path)):
+        image = Image.open(img_path).convert("RGB")
             
-        elif hasattr(img_path, "read"):
-            img_path.seek(0)  # 🔥 critical
-            image = Image.open(img_path).convert("RGB")
+    elif hasattr(img_path, "read"):
+        img_path.seek(0)  # 🔥 critical
+        image = Image.open(img_path).convert("RGB")
             
-        elif isinstance(img_path, Image.Image):
-                image = img_path.convert("RGB") 
+    elif isinstance(img_path, Image.Image):
+            image = img_path.convert("RGB") 
                 
-        else:
-            logger.critical("Unsupported Image Type")
-            raise ValueError("Unsupported Image Type")
+    else:
+        logger.critical("Unsupported Image Type")
+        raise ValueError("Unsupported Image Type")
                 
-        image_tensor = Val_transforms(image).unsqueeze(0)
+    image_tensor = Val_transforms(image).unsqueeze(0)
         
-        with torch.no_grad():
-            output = Model(image_tensor)
-            probs = F.softmax(output, dim=1)
-            conf, pred = torch.max(probs, dim=1)
+    with torch.no_grad():
+        output = Model(image_tensor)
+        probs = F.softmax(output, dim=1)
+        conf, pred = torch.max(probs, dim=1)
             
-        # Extract prediction results
-        label = class_names[pred.item()]
-        confidence_score = conf.item()
+    # Extract prediction results
+    label = class_names[pred.item()]
+    confidence_score = conf.item()
 
-        # ✅ VALIDATE LABEL BEFORE USING IT
-        if not label or label.strip() == "":
-            logger.error("Empty prediction label received!")
-            label = "unknown_pokemon"
+    # ✅ VALIDATE LABEL BEFORE USING IT
+    if not label or label.strip() == "":
+        logger.error("Empty prediction label received!")
+        label = "unknown_pokemon"
 
-        # Create safe filename
-        safe_label = str(label).strip().replace(" ", "_").replace("/", "_").replace("\\", "_")
+    # Create safe filename
+    safe_label = str(label).strip().replace(" ", "_").replace("/", "_").replace("\\", "_")
 
-        # ✅ ENSURE safe_label is not empty after replacements
-        if not safe_label:
-            safe_label = "unknown"
+    # ✅ ENSURE safe_label is not empty after replacements
+    if not safe_label:
+        safe_label = "unknown"
 
-        # ✅ CREATE PROPER FILE PATH WITH DIRECTORY
-        output_dir = Path("predictions")  # or Path.cwd() / "predictions"
-        output_dir.mkdir(exist_ok=True)  # Create directory if it doesn't exist
+    # ✅ CREATE PROPER FILE PATH WITH DIRECTORY
+    output_dir = Path("predictions")  # or Path.cwd() / "predictions"
+    output_dir.mkdir(exist_ok=True)  # Create directory if it doesn't exist
 
-        file_path = output_dir / f"output_{safe_label}.png"
+    file_path = output_dir / f"output_{safe_label}.png"
 
-        print("Saving to:", file_path)  
+    print("Saving to:", file_path)  
 
-        # ✅ EXPLICITLY SPECIFY FORMAT - THIS IS THE KEY FIX!
-        try:
-            image.save(file_path, format='PNG')
-            logger.info(f"Output saved successfully to {file_path}")
-        except Exception as save_error:
-            logger.error(f"Failed to save image: {save_error}")
-            # Don't fail the whole prediction just because save failed
-            logger.warning("Continuing without saving output image")
+    # ✅ EXPLICITLY SPECIFY FORMAT - THIS IS THE KEY FIX!
+    try:
+        image.save(file_path, format='PNG')
+        logger.info(f"Output saved successfully to {file_path}")
+    except Exception as save_error:
+        logger.error(f"Failed to save image: {save_error}")
+        # Don't fail the whole prediction just because save failed
+        logger.warning("Continuing without saving output image")
 
-        return label, confidence_score * 100
+    return label, confidence_score * 100
